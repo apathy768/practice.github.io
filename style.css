@@ -362,6 +362,58 @@ body {
     color: #D3D3D3;
 }
 
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 20px;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .header-left, .header-right {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .event-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .event-date {
+        align-self: flex-end;
+    }
+    
+    .event-details {
+        grid-template-columns: 1fr;
+    }
+    
+    .detail-grid {
+        grid-template-columns: 1fr;
+        grid-column: span 1;
+    }
+    
+    .stats-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .nav-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .nav-button {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
 
 .osnova {
     font-family: 'Inter', sans-serif;
